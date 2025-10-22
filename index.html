@@ -1,33 +1,430 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flowers Don't Die</title>
-    <link rel="stylesheet" href="style.css">
+﻿<!DOCTYPE html>
+<html lang="zh-CN" class="js background-fixed"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>PetMasion – Designed for Pet Comfort</title>
+<meta name="robots" content="max-image-preview:large">
+		<script src="./index/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./index/style.min.css" media="all">
+<style id="wp-block-library-theme-inline-css">
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+</style>
+<link rel="stylesheet" id="inspiro-google-fonts-css" href="./index/css.css" media="all">
+<link rel="stylesheet" id="inspiro-style-css" href="./index/style.min(1).css" media="all">
+<style id="inspiro-style-inline-css">
+body, button, input, select, textarea {
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+}
+@media screen and (min-width: 782px) {
+body, button, input, select, textarea {
+font-size: 16px;
+line-height: 1.8;
+} }
+body:not(.wp-custom-logo) a.custom-logo-text {
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+}
+@media screen and (min-width: 782px) {
+body:not(.wp-custom-logo) a.custom-logo-text {
+font-size: 26px;
+line-height: 1.8;
+} }
+h1, h2, h3, h4, h5, h6 {
+font-weight: 700;
+line-height: 1.4;
+}
+.site-title {
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+line-height: 1.25;
+}
+@media screen and (min-width: 782px) {
+.site-title {
+font-size: 80px;
+} }
+.site-description {
+font-family: 'Inter', sans-serif;
+line-height: 1.8;
+}
+@media screen and (min-width: 782px) {
+.site-description {
+font-size: 28px;
+} }
+.custom-header-button {
+font-family: 'Inter', sans-serif;
+line-height: 1.8;
+}
+@media screen and (min-width: 782px) {
+.custom-header-button {
+font-size: 16px;
+} }
+.navbar-nav a {
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+line-height: 1.8;
+}
+@media screen and (min-width: 782px) {
+.navbar-nav a {
+font-size: 16px;
+} }
+@media screen and (max-width: 64em) {
+.navbar-nav li a {
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 1.8;
+} }
+
+</style>
+<script src="./index/jquery.min.js" id="jquery-core-js"></script>
+<script src="./index/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+
+		<style id="inspiro-custom-header-styles" type="text/css">
+					.site-title a,
+			.colors-dark .site-title a,
+			.colors-custom .site-title a,
+			body.has-header-image .site-title a,
+			body.has-header-video .site-title a,
+			body.has-header-image.colors-dark .site-title a,
+			body.has-header-video.colors-dark .site-title a,
+			body.has-header-image.colors-custom .site-title a,
+			body.has-header-video.colors-custom .site-title a,
+			.site-description,
+			.colors-dark .site-description,
+			.colors-custom .site-description,
+			body.has-header-image .site-description,
+			body.has-header-video .site-description,
+			body.has-header-image.colors-dark .site-description,
+			body.has-header-video.colors-dark .site-description,
+			body.has-header-image.colors-custom .site-description,
+			body.has-header-video.colors-custom .site-description {
+				color: ;
+			}
+		
+					.custom-header-button {
+				color: #ffffff;
+				border-color: #ffffff;
+			}
+		
+					.custom-header-button:hover {
+				color: #ffffff;
+			}
+		
+					.custom-header-button:hover {
+				background-color: #0bb4aa;
+				border-color: #0bb4aa;
+			}
+				</style>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Flowers Don't Die: Master Algorithms with AI-Powered Learning</h1>
-        <h2>Bloom Your Coding Skills and Explore Others' Gardens!</h2>
-        <p>Ready to elevate your coding game? Flowers Don't Die is your ultimate companion in mastering algorithms with an AI-powered twist!</p>
-        <h3>Key Features:</h3>
-        <ul>
-            <li>Personalized AI-Powered Reviews</li>
-            <li>Cultivate Your Algorithm Garden</li>
-            <li>Sneak Peek into Others' Gardens</li>
-            <li>Challenge and Compete</li>
-        </ul>
-        <p>Download Flowers Don't Die today and start blooming your coding skills!</p>
-    </main>
-</body>
-</html>
+
+<body class="home page-template-default page page-id-21 wp-custom-logo wp-embed-responsive inspiro-front-page has-header-image inspiro--with-page-nav page-layout-full-width post-display-content-excerpt colors-light inspiro-page-ready inspiro-page-loaded">
+
+<aside id="side-nav" class="side-nav" tabindex="-1">
+	<div class="side-nav__scrollable-container">
+		<div class="side-nav__wrap">
+			<div class="side-nav__close-button">
+				<button type="button" class="navbar-toggle">
+					<span class="screen-reader-text">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+							<nav class="mobile-menu-wrapper" aria-label="Mobile Menu" role="navigation">
+					<ul id="menu-main-menu" class="nav navbar-nav"><li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-30"><a href="http://www.petmasion.com/" aria-current="page">HOME</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="#dvAbt">ABOUT</a></li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="#dvSvs">SERVICES</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="#dvCnt">CONTACT</a></li>
+</ul>				</nav>
+						<div id="search-2" class="widget widget_search"><h3 class="title">SEARCH</h3>
+
+<form role="search" method="get" class="search-form" action="http://www.petmasion.com/">
+	<label for="search-form-1">
+		<span class="screen-reader-text">Search for:</span>
+	</label>
+	<input type="search" id="search-form-1" class="search-field" placeholder="Search …" value="" name="s">
+	<button type="submit" class="search-submit"><svg class="svg-icon svg-icon-search" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)"></path></svg><span>Search</span></button>
+</form>
+<div class="clear"></div></div><div id="text-2" class="widget widget_text"><h3 class="title">COPYRIGHT</h3>			<div class="textwidget"><p>©2021 Hangzhou Hengyou Technology Co., Ltd. All rights reserved.</p>
+</div>
+		<div class="clear"></div></div><div id="text-3" class="widget widget_text"><h3 class="title">CONTACT US</h3>			<div class="textwidget"><p><strong>Addr</strong><br>
+830 WenYi Street<br>
+Zhe Jiang, 310031</p>
+<p><strong>Email</strong><br>
+Sale@petmasion.com<br>
+</p>
+</div>
+		<div class="clear"></div></div>		</div>
+	</div>
+</aside>
+<div class="side-nav-overlay"></div>
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="http://www.petmasion.com/#content">Skip to content</a>
+
+	<header id="masthead" class="site-header headroom headroom--top headroom--not-bottom" role="banner">
+		<div id="site-navigation" class="navbar">
+    	<div class="header-inner inner-wrap">
+
+		<div class="header-logo-wrapper">
+			<a href="http://www.petmasion.com/" class="custom-logo-link" rel="home" aria-current="page"><img width="400" height="100" src="./index/LOGO-400-100-2.png" class="custom-logo" alt="PetMasion" ></a>		</div>
+
+		<div class="header-navigation-wrapper">
+							<nav class="primary-menu-wrapper navbar-collapse collapse" aria-label="Top Horizontal Menu" role="navigation">
+					<ul id="menu-main-menu-1" class="nav navbar-nav dropdown sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-30"><a href="http://www.petmasion.com/" aria-current="page">HOME</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="#dvAbt">ABOUT</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="#dvSvs">SERVICES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="#dvCnt">CONTACT</a></li>
+</ul>				</nav>
+			
+			
+			<div id="sb-search" class="sb-search" style="display: block;">
+				
+<form method="get" id="searchform" action="http://www.petmasion.com/">
+	<label for="search-form-input">
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="sb-search-input" placeholder="Type your keywords and hit Enter..." name="s" id="search-form-input" autocomplete="off">
+	</label>
+	<button class="sb-search-button-open" aria-expanded="false">
+		<span class="sb-icon-search">
+			<svg class="svg-icon svg-icon-search" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)"></path></svg>		</span>
+	</button>
+	<button class="sb-search-button-close" aria-expanded="false">
+		<span class="sb-icon-search">
+			<svg class="svg-icon svg-icon-cross" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102"></polygon></svg>		</span>
+	</button>
+</form>
+			</div>
+
+							<button type="button" class="navbar-toggle">
+					<span class="screen-reader-text">Toggle sidebar &amp; navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+					</div>
+	</div><!-- .inner-wrap -->
+</div><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	<div class="custom-header">
+	<div class="site-branding">
+	<div class="inner-wrap">
+		
+		<div class="site-branding-text">
+			
+			
+							<h1 class="site-title"><a href="http://www.petmasion.com/" target="_self">PetMasion</a></h1>
+			
+							<p class="site-description">Designed for Pet Comfort</p>
+					</div><!-- .site-branding-text -->
+
+		<div class="custom-header-button-wrapper">
+		<a class="custom-header-button button" href="http://www.petmasion.com/" target="_self" rel="nofollow" style="display: none;">
+			</a>
+</div><!-- .custom-header-button -->
+
+	</div><!-- .inner-wrap -->
+</div><!-- .site-branding -->
+
+	<div class="custom-header-media">
+		<div id="wp-custom-header" class="wp-custom-header">
+			<img src="./index/Index_Background.jpg" width="2000" height="1200" alt="PetMasion">
+		</div>
+	</div>
+
+		<div id="scroll-to-content" title="Scroll down to content">
+		<span class="screen-reader-text">Scroll down to content</span>
+	</div>
+	</div><!-- .custom-header -->
+
+	<div class="site-content-contain">
+		<div id="content" class="site-content">
+
+
+		<main id="main" class="site-main" role="main">
+
+			
+<article id="post-21" class="post-21 page type-page status-publish has-post-thumbnail hentry">
+
+	
+	<header class="entry-header">
+
+		<div class="inner-wrap"><h1 class="entry-title">A Better Pet Supplies Solutions</h1></div><!-- .inner-wrap -->
+	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		
+<p class="has-text-align-left">We strive to control quality and design to make pet life better.</p>
+
+
+
+<div style="height:55px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div id="dvAbt" class="wp-block-group alignfull has-background" style="background-color:#e5e9ec"><div class="wp-block-group__inner-container">
+<div class="wp-block-columns">
+<div  class="wp-block-column is-vertically-aligned-center">
+<h2>About us</h2>
+
+
+
+<p>We are a company that constantly strives to improve our products, constantly enhancing the quality and design of our products. I have been deeply involved in the field of pet supplies for many years, providing better product services for pet lovers.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-left">
+<div  class="wp-block-button is-style-outline"><a class="wp-block-button__link no-border-radius" href="#dvAbt">About Us</a></div>
+</div>
+
+
+
+<p></p>
+</div>
+
+
+
+<div  class="wp-block-column">
+<div  style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure  class="wp-block-image size-large"><img src="./index/Index_Team.jpg" alt="" class="wp-image-26"></figure>
+</div>
+</div>
+</div></div>
+
+
+
+<div id="dvSvs" class="wp-block-group alignfull"><div class="wp-block-group__inner-container">
+<div class="wp-block-columns are-vertically-aligned-center">
+<div class="wp-block-column is-vertically-aligned-center">
+<div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-large"><img src="./index/Index_Service.jpg" alt="" class="wp-image-27"></figure>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-center">
+<h2>Our Services</h2>
+
+
+
+<p>Contributing to society cannot be a side activity. In the long run, having good values and persistent good service can enable brands and enterprises to go further</p>
+<p>We are committed to providing good after-sales service. We promise to reply to customers' solutions within 24 hours for any product problems. Our after-sales email address is Service@petmasion.com.</p>
+
+
+<div class="wp-block-buttons">
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link no-border-radius" href="#dvSvs">Email：Service@petmasion.com</a></div>
+</div>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="wp-block-group alignfull has-black-background-color has-background"><div class="wp-block-group__inner-container">
+<h2 class="has-text-align-center has-white-color has-text-color"><strong>We Hope A Better World</strong></h2>
+
+
+
+<figure class="wp-block-gallery aligncenter columns-3 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="./index/StockSnap_P9QYJ8AAL8.jpg" alt="" data-id="28" data-full-url="./index/StockSnap_P9QYJ8AAL8.jpg" data-link="#" class="wp-image-28"></figure></li><li class="blocks-gallery-item"><figure><img src="./index/StockSnap_M6D1GS9PSL.jpg" alt="" data-id="27" data-full-url="./index/StockSnap_M6D1GS9PSL.jpg" data-link="#" class="wp-image-27"></figure></li><li class="blocks-gallery-item"><figure><img src="./index/StockSnap_JKMGVEJMPU.jpg" alt="" data-id="26" data-full-url="./index/StockSnap_JKMGVEJMPU.jpg" data-link="#" class="wp-image-26"></figure></li><li class="blocks-gallery-item"><figure><img src="./index/StockSnap_CXVCF2NNWJ.jpg" alt="" data-id="25" data-full-url="./index/StockSnap_CXVCF2NNWJ.jpg" data-link="#" class="wp-image-25"></figure></li><li class="blocks-gallery-item"><figure><img src="./index/StockSnap_89BQZ89TLH.jpg" alt="" data-id="24" data-full-url="./index/StockSnap_89BQZ89TLH.jpg" data-link="#" class="wp-image-24"></figure></li><li class="blocks-gallery-item"><figure><img src="./index/StockSnap_PGXCCTCLB5.jpg" alt="" data-id="29" data-full-url="./index/StockSnap_PGXCCTCLB5.jpg" data-link="#" class="wp-image-29"></figure></li></ul></figure>
+</div></div>
+
+
+
+<div id="dvCnt" class="wp-block-cover alignfull has-background-dim-40 has-black-background-color has-background-dim has-parallax is-position-center-center" style="background-image:url(./index/StockSnap_89BQZ89TLH.jpg);min-height:375px"><div class="wp-block-cover__inner-container">
+<p class="has-text-align-center has-text-color has-huge-font-size" style="color:#fffffa;line-height:1.1"><strong>Welcome to join us</strong></p>
+
+
+
+<p class="has-text-align-center">PetMasion’s efforts in carbon neutrality and environmental sustainabilityIn.</p>
+
+
+
+<div style="height:39px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-buttons is-content-justification-center">
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color no-border-radius" href="#dvCnt">Sale@petmasion.com</a></div>
+</div>
+</div></div>
+	</div><!-- .entry-content -->
+</article><!-- #post-21 -->
+
+		</main><!-- #main -->
+
+
+
+		</div><!-- #content -->
+
+		
+		<footer id="colophon" class="site-footer has-footer-widgets" role="contentinfo">
+			<div class="inner-wrap">
+				
+
+	<aside class="footer-widgets widgets widget-columns-3" role="complementary" aria-label="Footer">
+
+							<div class="widget-column footer-widget-1">
+					<section id="text-4" class="widget widget_text"><h2 class="title">CONTACT US</h2>			<div class="textwidget"><p><strong>Addr</strong><br>
+830 WenYi Street<br>
+Zhe Jiang, 310031</p>
+<p><strong>Email</strong><br>
+Sale@petmasion.com</p>
+</div>
+		</section>					</div>
+									<div class="widget-column footer-widget-2">
+					<section id="text-5" class="widget widget_text"><h2 class="title">COPYRIGHT</h2>			<div class="textwidget"><p>©2021 Hangzhou Hengyou Technology Co., Ltd. All rights reserved.</p>
+</div>
+		</section><section id="search-3" class="widget widget_search"><h2 class="title">Search</h2>
+
+<form role="search" method="get" class="search-form" action="http://www.petmasion.com/">
+	<label for="search-form-2">
+		<span class="screen-reader-text">Search for:</span>
+	</label>
+	<input type="search" id="search-form-2" class="search-field" placeholder="Search …" value="" name="s">
+	<button type="submit" class="search-submit"><svg class="svg-icon svg-icon-search" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)"></path></svg><span>Search</span></button>
+</form>
+</section>					</div>
+				
+	</aside><!-- .widget-area -->
+
+	<div class="site-footer-separator"></div>
+
+<div class="site-info">
+			</div><!-- .site-info -->
+			</div><!-- .inner-wrap -->
+		</footer><!-- #colophon -->
+	</div><!-- .site-content-contain -->
+</div><!-- #page -->
+<script src="./index/plugins.min.js" id="inspiro-lite-js-plugins-js"></script>
+<script src="./index/scripts.min.js" id="inspiro-lite-script-js"></script>
+<script src="./index/wp-embed.min.js" id="wp-embed-js"></script>
+
+
+
+</body></html>
